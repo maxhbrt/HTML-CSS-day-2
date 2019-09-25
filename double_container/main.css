@@ -1,0 +1,26 @@
+header {
+    height: 100px;
+    background-color: yellow
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
+
+main{
+min-height: calc(100vh -100px);
+background-color: blueviolet;
+height: 100%;
+}
+
+main > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    margin: 0 auto;
+}
